@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    height: 40vh;
+}
+
+.box1,.box3{
+    width: 25vw;
+}
+
+.box2, .box4{
+    width: 60vw;
+}
+
+.box1, .box2{
+    display: inline-block;
+}
+
+.box3, .box4{
+    display: inline-block;
+}
+
+.box2, .box4{
+    margin-left: 15vw;
+}
+
+.box3, .box4{
+    margin-top: 20vh;
+}
